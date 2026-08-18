@@ -1,4 +1,3 @@
-import React from "react";
 import { ctaContent } from "../data/cta";
 
 const CTA = () => {
