@@ -1,0 +1,92 @@
+.process {
+  width: 100%;
+  padding: 5rem 1.5rem;
+}
+
+.process-container {
+  width: min(1200px, 100%);
+  margin: 0 auto;
+}
+
+.process-header {
+  max-width: 700px;
+  margin: 0 auto 3rem;
+  text-align: center;
+}
+
+.process-eyebrow {
+  margin: 0 0 0.75rem;
+
+  color: var(--color-primary);
+
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.process-title {
+  margin: 0;
+
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  line-height: 1.1;
+}
+
+.process-description {
+  max-width: 620px;
+  margin: 1.25rem auto 0;
+
+  color: var(--color-text-secondary);
+
+  line-height: 1.7;
+}
+
+.process-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.process-card {
+  position: relative;
+
+  padding: 2rem;
+
+  border-top: 3px solid var(--color-primary);
+}
+
+.process-card__step {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+
+  color: var(--color-primary);
+
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.process-card__title {
+  margin: 0 0 0.75rem;
+
+  font-size: 1.25rem;
+}
+
+.process-card__description {
+  margin: 0;
+
+  color: var(--color-text-secondary);
+
+  line-height: 1.7;
+}
+
+@media (max-width: 900px) {
+  .process-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .process-grid {
+    grid-template-columns: 1fr;
+  }
+}

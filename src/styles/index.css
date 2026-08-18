@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #1f365c;
+  --color-primary-light: #4d6f9e;
+  --color-secondary: #82a6d9;
+
+  --color-success: #22c55e;
+  --color-warning: #f59e0b;
+
+  --color-background: #f5f7fa;
+  --color-surface: #ffffff;
+
+  --color-text-primary: #111827;
+  --color-text-secondary: #4b5563;
+
+  --color-border: #d1d5db;
+
+  --gradient-primary: linear-gradient(#1f365c, #4d6f9e, #82a6d9);
+}
