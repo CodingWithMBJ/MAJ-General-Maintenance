@@ -5,10 +5,11 @@ import "./Navigation.css";
 
 interface NavigationProps {
   showMenu?: boolean;
+  closeMenu?: () => void;
   toggleMenu: () => void;
 }
 
-const Navigation = ({ showMenu, toggleMenu }: NavigationProps) => {
+const Navigation = ({ showMenu, toggleMenu, closeMenu }: NavigationProps) => {
   return (
     <nav className={`nav`}>
       <Logo />
@@ -21,7 +22,11 @@ const Navigation = ({ showMenu, toggleMenu }: NavigationProps) => {
       <ul className={`nav-ul ${showMenu ? "opened" : ""}`}>
         {navigation.map((item) => (
           <li className="nav-li inline-flex items-center" key={item.id}>
-            <a href={`${item.section}`} className="nav-li-a inline-block">
+            <a
+              href={`${item.section}`}
+              className="nav-li-a inline-block"
+              onClick={closeMenu}
+            >
               {item.name}
             </a>
           </li>

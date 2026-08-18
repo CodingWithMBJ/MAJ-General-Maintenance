@@ -30,6 +30,7 @@ body {
 
 #root {
   flex: 1;
+  /* overflow-x: hidden; */
 }
 
 body {
@@ -43,6 +44,10 @@ body {
   align-items: center;
   margin: 0 auto;
   padding: 70px 1em;
+}
+
+.main > section {
+  padding-top: 80px;
 }
 
 h1 {

@@ -65,13 +65,21 @@
   align-items: center;
   justify-content: center;
   border: none;
-  background-color: var(--color-border);
+  background-color: var(--color-surface);
   border-radius: 4px;
   padding: 2px;
   cursor: pointer;
 }
+
+.menu-btn:hover {
+  background-color: var(--color-border);
+}
 .menu-btn-icon {
-  font-size: 1.5em;
+  font-size: 1.8em;
+}
+
+.menu-btn.showing {
+  background-color: var(--color-border);
 }
 
 @media (min-width: 1024px) {

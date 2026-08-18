@@ -1,6 +1,6 @@
 .header {
   min-height: 70px;
-  width: 100%;
+  width: 100svw;
   display: block;
   background-color: var(--color-background);
   position: fixed;

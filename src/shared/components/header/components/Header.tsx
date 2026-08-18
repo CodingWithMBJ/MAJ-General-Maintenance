@@ -10,9 +10,17 @@ const Header = () => {
     setShowMenu((prev) => !prev);
   };
 
+  const closeMenu = () => {
+    setShowMenu(false);
+  };
+
   return (
     <header className={`header`}>
-      <Navigation showMenu={showMenu} toggleMenu={toggleMenu} />
+      <Navigation
+        showMenu={showMenu}
+        toggleMenu={toggleMenu}
+        closeMenu={closeMenu}
+      />
     </header>
   );
 };
