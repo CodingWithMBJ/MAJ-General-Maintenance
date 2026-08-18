@@ -10,40 +10,48 @@ export interface Testimonial {
 export const testimonials: Testimonial[] = [
   {
     id: 1,
-    name: "Customer Name",
-    location: "City, State",
-    service: "Property Maintenance",
-    quote:
-      "MAJ General Maintenance was professional, dependable, and easy to work with. The work was completed with great attention to detail.",
+    name: "Coming Soon",
+    location: "",
+    service: "",
+    quote: "",
     rating: 5,
   },
-  {
-    id: 2,
-    name: "Customer Name",
-    location: "City, State",
-    service: "Property Maintenance",
-    quote:
-      "MAJ General Maintenance was professional, dependable, and easy to work with. The work was completed with great attention to detail.",
-    rating: 5,
-  },
-  {
-    id: 3,
-    name: "Customer Name",
-    location: "City, State",
-    service: "Property Maintenance",
-    quote:
-      "MAJ General Maintenance was professional, dependable, and easy to work with. The work was completed with great attention to detail.",
-    rating: 5,
-  },
-  {
-    id: 3,
-    name: "Customer Name",
-    location: "City, State",
-    service: "Property Maintenance",
-    quote:
-      "MAJ General Maintenance was professional, dependable, and easy to work with. The work was completed with great attention to detail.",
-    rating: 5,
-  },
+  // {
+  //   id: 1,
+  //   name: "Customer Name",
+  //   location: "City, State",
+  //   service: "Property Maintenance",
+  //   quote:
+  //     "MAJ General Maintenance was professional, dependable, and easy to work with. The work was completed with great attention to detail.",
+  //   rating: 5,
+  // },
+  // {
+  //   id: 2,
+  //   name: "Customer Name",
+  //   location: "City, State",
+  //   service: "Property Maintenance",
+  //   quote:
+  //     "MAJ General Maintenance was professional, dependable, and easy to work with. The work was completed with great attention to detail.",
+  //   rating: 5,
+  // },
+  // {
+  //   id: 3,
+  //   name: "Customer Name",
+  //   location: "City, State",
+  //   service: "Property Maintenance",
+  //   quote:
+  //     "MAJ General Maintenance was professional, dependable, and easy to work with. The work was completed with great attention to detail.",
+  //   rating: 5,
+  // },
+  // {
+  //   id: 4,
+  //   name: "Customer Name",
+  //   location: "City, State",
+  //   service: "Property Maintenance",
+  //   quote:
+  //     "MAJ General Maintenance was professional, dependable, and easy to work with. The work was completed with great attention to detail.",
+  //   rating: 5,
+  // },
 ];
 
 export const testimonialsContent = {
